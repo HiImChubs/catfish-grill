@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Web Layout</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <div id="logo"><h1><img src="img/logo.png" alt="Catfish Grill"></h1></div>
+
+    </header>
+
+    <main>
+      <div id="carousel" class="owl-carousel owl-theme">
+        <div><img src="img/motz-sticks.jpg" alt="Motzarella Sticks"></div>
+        <div><img src="img/shrimp-grits.jpg" alt="Shrimp and Grits"></div>
+        <div><img src="img/fried-catfish.jpg" alt="Fried Catfish"></div>
+        <div><img src="img/fish-sticks.jpg" alt="Fish Sticks"></div>
+        <div><img src="img/volcano-cake.jpg" alt="Volcano Cake"></div>
+      </div>
+
+      <div id="menu"><h2>Menu</h2>
+        <p><u>Click Here For Our Menu</u></p>
+        <p>Join us on Sundays from 10-1 for our Sunday Brunch.</p>
+        <p>Our Fish of the Days are:</p>
+        <table>
+          <tr>
+            <th>Day</th>
+            <th>Fish</th>
+          </tr>
+          <tr>
+            <td>Monday</td>
+            <td>Tuna</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>Tilapia</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Mahi-Mahi</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Flounder</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Catfish</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>Grouper</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>Trout</td>
+          </tr>
+        </table>
+      </div>
+      <div id="hours"><h2>Hours</h2>
+      <table>
+        <tr>
+          <th>Day</th>
+          <th>Hours</th>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>11-9 P.M</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>11-9 P.M</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>11-9 P.M</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>11-9 P.M</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>11-11 P.M</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>11-12 A.M</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>10-9 P.M</td>
+        </tr>
+      </table>
+      </div>
+      <div id="location"><h2>Directions</h2><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.7556058929868!2d-82.94900944992273!3d34.71134368033571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8858f5adb805be89%3A0xa791d3054ba41e4!2s155+Keowee+Marina+Dr%2C+Seneca%2C+SC+29672!5e0!3m2!1sen!2sus!4v1518450751382" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </main>
+
+    <footer>
+      <div id="socialmedia"><h2>Social Media</h2>
+        <p>Follow Us On:</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+      <div id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: catfishgrillsc@gmail.com
+        <p>Phone: 864-228-3474</p>
+        <img src="https://cdn.websites.hibu.com/cfc8a9f64274413e85f9cd4b06340393/dms3rep/multi/desktop/CC4.png" id="1083476970" class="" data-dm-image-path="https://cdn.websites.hibu.com/cfc8a9f64274413e85f9cd4b06340393/dms3rep/multi/CC4.png" alt="Payment methods" onerror="handleImageLoadError(this)">
+      </div>
+      <div id="credit"><h2>Credit</h2>
+        <p>This website was made by Connor W. for a restaurants project.</p>
+        <p>This is NOT a real restaurant</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+          dots: true,
+          items: 1,
+          loop: true,
+          margin: 5,
+          nav: false,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          autoplayHoverPause: true
+      })
+    });
+  </script>
+
+</body>
+</html>
