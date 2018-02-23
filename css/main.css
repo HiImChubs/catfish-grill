@@ -235,6 +235,9 @@ img {
 
 }
 
+iframe{
+  max-width: 100%
+}
 /* links */
 
 a:link {
