@@ -9,27 +9,28 @@
 
 /*********** Begin Layout Styles ***********/
 body {
-  background-image: url("img/wood.jpg");
+  background-image: url("../img/wood.jpg");
+  font-family: 'Contrail One', cursive;
 }
 
 div.container {
-  background-color: #ffffff;
+  background-color: #ededed;
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px; /* disable this line if you want full-width layouts */
 }
 
 header, main, footer {
-  padding: 15px;
-  margin: 15px;
+  padding: 10px;
+  margin: 8px;
 }
 
 /* phones (base layout is mobile-first) */
 header {
   /*border: 3px solid #990000;  disable this line once layout works */
   display: grid;
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
   grid-template-columns: 1fr;
   grid-template-areas:
     "logo";
@@ -38,7 +39,6 @@ header {
 main {
   /* border: 3px solid #009900;  disable this line once layout works */
   display: grid;
-  grid-column-gap: 15px;
   grid-row-gap: 15px;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -50,7 +50,6 @@ main {
 footer {
   /* border: 3px solid #000099;  disable this line once layout works */
   display: grid;
-  grid-column-gap: 15px;
   grid-row-gap: 15px;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -117,34 +116,42 @@ main div {
 
 div#logo {
   grid-area: logo;
+  background-color: #d3d3d3;
 }
 
 div#carousel {
   grid-area: carousel;
+  background-color: #ededed;
 }
 
 div#menu {
   grid-area: menu;
+  background-color: #d3d3d3;
 }
 
 div#hours {
   grid-area: hours;
+  background-color: #d3d3d3;
 }
 
 div#location {
   grid-area: location;
+  background-color: #d3d3d3;
 }
 
 div#socialmedia {
   grid-area: socialmedia;
+  background-color: #CED9EA;
 }
 
 div#contact {
   grid-area: contact;
+  background-color: #CED9EA;
 }
 
 div#credit {
   grid-area: credit;
+  background-color: #CED9EA
 }
 
 @media (max-width: 599px) {
@@ -169,7 +176,7 @@ h1 {
 }
 
 h2 {
-
+  font-family: 'Righteous', cursive;
 }
 
 h3 {
