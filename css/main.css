@@ -71,14 +71,14 @@ footer {
     grid-template-areas:
       "carousel carousel"
       "menu location"
-      "hours location"
+      "hours hours"
   }
 
   footer {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-    "socialmedia contact"
-    "credit contact";
+    "contact contact"
+    "socialmedia credit";
   }
 }
 
@@ -141,17 +141,17 @@ div#location {
 
 div#socialmedia {
   grid-area: socialmedia;
-  background-color: #CED9EA;
+  background-color: #d3d3d3;
 }
 
 div#contact {
   grid-area: contact;
-  background-color: #CED9EA;
+  background-color: #d3d3d3;
 }
 
 div#credit {
   grid-area: credit;
-  background-color: #CED9EA
+  background-color: #d3d3d3;
 }
 
 @media (max-width: 599px) {
