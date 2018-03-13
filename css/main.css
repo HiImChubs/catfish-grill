@@ -38,7 +38,7 @@ header {
 }
 
 main {
-  /* border: 3px solid #009900;  disable this line once layout works */
+   /* border: 3px solid #009900; disable this line once layout works */
   display: grid;
   grid-row-gap: 15px;
   grid-template-columns: 1fr;
@@ -108,51 +108,76 @@ footer {
 
 div {
 /*   border: 1px solid #999999; disable this line once layout works */
-  text-align: center;  /* disable this line once layout works */
+/*  text-align: center;   disable this line once layout works */
 }
 
 main div {
   /*  min-height: 80px; /* disable this line once layout works */
 }
 
+div#appetizers{
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+div#desserts{
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-left: 10px
+}
+
+div#entrees{
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-left: 10px;
+}
 div#logo {
   grid-area: logo;
   background-color: #d3d3d3;
+  text-align: center;
 }
 
 div#carousel {
   grid-area: carousel;
   background-color: #ededed;
+  text-align: center;
 }
 
 div#menu {
   grid-area: menu;
   background-color: #d3d3d3;
+  text-align: center;
 }
 
 div#hours {
   grid-area: hours;
   background-color: #d3d3d3;
+  text-align: center;
 }
 
 div#location {
   grid-area: location;
   background-color: #d3d3d3;
+  text-align: center;
 }
 
 div#socialmedia {
   grid-area: socialmedia;
   background-color: #d3d3d3;
+  text-align: center;
 }
 
 div#contact {
   grid-area: contact;
   background-color: #d3d3d3;
+  text-align: center;
 }
 
 div#credit {
   grid-area: credit;
   background-color: #d3d3d3;
+  text-align: center;
 }
 
 @media (max-width: 599px) {
@@ -199,7 +224,7 @@ h6 {
 /* Paragraphs and lists */
 
 p {
-
+margin-left: auto;
 }
 
 ol {
@@ -207,11 +232,15 @@ ol {
 }
 
 ul {
-
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* tables */
